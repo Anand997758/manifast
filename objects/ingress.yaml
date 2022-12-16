@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: anandingress
+  namespace: anand
+  labels:
+    name: anandingress
+spec:
+  rules:
+  - host: anandchakibanda.xyz
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: anandsvc
+            port: 
+              number: 8080
