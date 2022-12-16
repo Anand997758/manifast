@@ -530,9 +530,9 @@
                 <db.script>postgresql</db.script>
                 <jpa.database>POSTGRESQL</jpa.database>
                 <jdbc.driverClassName>org.postgresql.Driver</jdbc.driverClassName>
-                <jdbc.url></jdbc.url>
-                <jdbc.username></jdbc.username>
-                <jdbc.password></jdbc.password>
+                <jdbc.url>DB_USER_URL</jdbc.url>
+                <jdbc.username>DB_USER_NAME</jdbc.username>
+                <jdbc.password>DB_USER_PASSWD</jdbc.password>
             </properties>
             <dependencies>
                 <dependency>
