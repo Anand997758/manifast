@@ -4,9 +4,9 @@ metadata:
   name: anandsvc
   namespace: anand
 spec:
+  type: LoadBalancer
   selector:
     app: anand
   ports:
-  - port: 30161
+  - port: 80
     targetPort: 8080
-
