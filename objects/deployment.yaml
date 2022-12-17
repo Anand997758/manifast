@@ -17,13 +17,13 @@ spec:
         image: 288701581823.dkr.ecr.ap-northeast-1.amazonaws.com/test:1
         resources:
           limits:
-            memory: "128Mi"
+            memory: "500Mi"
             cpu: "500m"
         env:
         - name: DB_USER_URL
           valueFrom:
-            secretKeyRef:
-              name: anandsecret
+            configMapKeyRef:
+              name: anandconfigmap
               key: URL
         - name: DB_USER_NAME
           valueFrom:

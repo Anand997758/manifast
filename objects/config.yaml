@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: anandconfigmap
+  namespace: anand
+data:
+  URL: "database-3.cfqxzhjez7fv.ap-northeast-1.rds.amazonaws.com"
