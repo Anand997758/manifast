@@ -511,9 +511,9 @@
                 <db.script>mysql</db.script>
                 <jpa.database>MYSQL</jpa.database>
                 <jdbc.driverClassName>com.mysql.cj.jdbc.Driver</jdbc.driverClassName>
-                <jdbc.url>jdbc:mysql://DB_USER_URL:3306/manifast?useUnicode=true</jdbc.url>
-                <jdbc.username>DB_USER_NAME</jdbc.username>
-                <jdbc.password>DB_USER_PASSWD</jdbc.password>
+                <jdbc.url>jdbc:mysql://database-3.cfqxzhjez7fv.ap-northeast-1.rds.amazonaws.com:3306/manifast?useUnicode=true</jdbc.url>
+                <jdbc.username>ramesh</jdbc.username>
+                <jdbc.password>tamesh123</jdbc.password>
             </properties>
             <dependencies>
                 <dependency>
