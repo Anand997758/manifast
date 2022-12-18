@@ -5,3 +5,5 @@ metadata:
   namespace: anand
 data:
   URL: "database-3.cfqxzhjez7fv.ap-northeast-1.rds.amazonaws.com"
+  USER_NAME: "ramesh"
+  PASSWD: "ramesh123"
