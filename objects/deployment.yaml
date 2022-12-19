@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: petclinic
-        image: 288701581823.dkr.ecr.ap-northeast-1.amazonaws.com/test:5
+        image: 288701581823.dkr.ecr.ap-northeast-1.amazonaws.com/test:6
         resources:
           limits:
             memory: "500Mi"
