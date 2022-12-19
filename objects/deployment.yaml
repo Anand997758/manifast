@@ -27,13 +27,13 @@ spec:
               key: URL
         - name: DB_USER_NAME
           valueFrom:
-            configMapKeyRef:
-              name: anandconfigmap
+            secretKeyRef:
+              name: anandsecret
               key: USER_NAME
         - name: DB_USER_PASSWD
           valueFrom:
-            configMapKeyRef:
-              name: anandconfigmap
+            secretKeyRef:
+              name: anandsecret
               key: PASSWORD 
         ports:
         - containerPort: 8080
