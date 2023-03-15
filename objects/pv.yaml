@@ -17,12 +17,15 @@ spec:
   nfs:
     path: /tmp
     server: 172.17.0.2
-
-
+    
+    
+# pv and pvc link
+#https://www.nebulaworks.com/insights/posts/leveraging-aws-ebs-for-kubernetes-persistent-volumes/
 # (or)
 #first we have to create manually ebs volume using aws ebs after attach the volumeid in pv.yaml
 #to create ebs volume using this aws cli command and the instance node we have to check the what is the region and what is the availabilityzone
 #aws ec2 create-volume --region us-east-1 --availability-zone us-east-1a --size10 --volume-type gp2
+
 # apiVersion: v1
 # kind: PersistentVolume
 # metadata:
