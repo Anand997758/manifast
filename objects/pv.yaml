@@ -17,3 +17,22 @@ spec:
   nfs:
     path: /tmp
     server: 172.17.0.2
+
+
+# (or)
+
+# apiVersion: v1
+# kind: PersistentVolume
+# metadata:
+#   name: pv
+# spec:
+#   accessModes:
+#   - ReadWriteOnce
+#   awsElasticBlockStore:
+#     fsType: xfs
+#     volumeID: aws://us-east-1a/vol-xxxxxxxxxxxx
+#   capacity:
+#     storage: 10Gi
+#   persistentVolumeReclaimPolicy: Retain
+#   storageClassName: gp2-retain
+#   volumeMode: Filesystem
